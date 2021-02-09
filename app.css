@@ -1,0 +1,49 @@
+:root {
+  --primary: #14274e;
+  --secondary: #fa7f72;
+  --back: #f1f6f9;
+  --text: #394867;
+}
+
+.containera  {
+  background: var(--back) !important;
+}
+
+#my-card {
+  border-radius: 10px;
+}
+#w-location {
+  color: var(--primary);
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#w-desc {
+  color: var(--secondary) !important;
+}
+#w-details {
+  color: var(--text);
+}
+#w-icon {
+  width: 60px;
+  height: auto;
+}
+#inputCountry {
+  color: var(--back) !important;
+  background-color: var(--primary);
+  width: 100% !important;
+}
+#inputCountry::placeholder {
+  color: var(--back) !important;
+}
+
+#changeCountry {
+  background-color: var(--secondary) !important;
+  color: var(--back) !important;
+  width: 100%;
+}
+
+.aler {
+  margin-top: 30px;
+  background-color: var(--secondary) !important;
+}
