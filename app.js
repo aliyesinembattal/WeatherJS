@@ -37,9 +37,8 @@ const showAlert = (err) => {
   <div class="alert alert-dismissible alert-warning" style="background: #fa7f72;">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
   <h4 class="alert-heading">Error!</h4>
-  <p class="mb-0">${err}<a href="#" class="alert-link">Please check your country name...</a></p>
-</div>
-  `;
+  <p class="mb-0">${err}<a href="#" class="alert-link">Please check your location...</a></p>
+</div>`;
 
   setTimeout(() => {
     document.getElementById("error").innerHTML = "";
