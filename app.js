@@ -43,5 +43,5 @@ const showAlert = (err) => {
 
   setTimeout(() => {
     document.getElementById("error").innerHTML = "";
-  }, 30000);
+  }, 3000);
 };
